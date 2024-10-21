@@ -1,0 +1,21 @@
+For the "Prediction of Credit Card Fraud" project, you'll need several libraries to handle data manipulation, machine learning, balancing datasets, visualization, and model evaluation. Here's a list of key Python dependencies you should include in the requirements.txt file.
+Python Dependencies
+
+    Data Manipulation and Preprocessing:
+        pandas: For data manipulation and analysis.
+        numpy: For numerical computations.
+
+    Visualization:
+        matplotlib: For creating static, animated, and interactive visualizations.
+        seaborn: For statistical data visualization (works well with pandas).
+
+    Machine Learning:
+        scikit-learn: For machine learning models, preprocessing, and model evaluation.
+        imbalanced-learn: To handle imbalanced datasets using techniques like SMOTE.
+
+    Model Saving/Loading:
+        joblib: For saving/loading models (you can also use pickle, but joblib is more efficient for large numpy arrays).
+
+    Other Utility Libraries:
+        xgboost: If you decide to use the XGBoost model, it's an efficient implementation for gradient boosting.
+        shap (optional): For explainable AI, particularly if you want to visualize feature importance.
